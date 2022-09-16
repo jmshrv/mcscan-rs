@@ -14,6 +14,6 @@ Note that the program outputs to stdout. To save the output to a file, pipe the 
 
 # Performance
 
-It's decently fast. Most of the time here was spent waiting for the last few to time out.
+It's decently fast. Most of the time here was spent waiting for the last few to time out. The program checks 256 servers at a time asynchronously.
 
 `Processed 3319 servers in 00:02:30 (2037 failed)`
