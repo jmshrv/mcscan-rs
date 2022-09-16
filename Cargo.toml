@@ -1,0 +1,18 @@
+[package]
+name = "mcscan-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-minecraft-ping = { git = "https://github.com/jmshrv/async-minecraft-ping.git" }
+chrono = "0.4.22"
+clap = { version = "3.2.22", features = ["derive"] }
+csv = "1.1"
+futures = "0.3.24"
+futures-util = "0.3.24"
+indicatif = "0.17.1"
+serde = "1.0.144"
+tokio = { version = "1.21.1", features = ["full"] }
+tokio-stream = "0.1.9"
